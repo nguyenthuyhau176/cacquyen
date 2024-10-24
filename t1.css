@@ -1,0 +1,37 @@
+#menu ul{
+    background: rgb(92, 229, 158) ;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    color:black ;
+    display: inline-block;
+    width: 250px;
+    height:40px;
+    line-height: 40px;
+}
+#menu ul li a{
+    text-decoration: none ;
+    color:black;
+    display:block
+}
+h1{
+    text-align: center;
+    
+}
+.full-screen-image {
+    width:100vw;
+    height:auto;
+    display:block;
+    clip-path: inset(40% 0 40% 0);
+    object-fit: cover
+}
+.image-container{
+    overflow:hidden;
+    display:inline-block;
+    line-height: 0; 
+}
+.text-container {
+    margin: 0 auto;
+    width: 80%; /* Tùy chỉnh chiều rộng của phần tử chứa văn bản */
+}
